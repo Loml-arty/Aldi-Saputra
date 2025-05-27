@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Users</title>
+</head>
+<body>
+    <h1>Daftar Users</h1>
+    <table border="1">
+        <tr>
+            <th>Judul buku</th>
+            <th>Penulis</th>
+            <th>Penerbit</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user[0] }}</td>
+            <td>{{ user[1] }}</td>
+            <td>{{ user[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perpustakaan Politeknik Belitung</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+    <div class="container">
+    <!-- NAVBAR -->
+    <div class="navbar-container">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                 <a href="/rumah" class="a-navbar">home</a>
+            </li>
+            <li class="li-navbar">
+                <a href="/dashboard" class="a-navbar">dashboard</a>
+             </li>
+            <li class="li-navbar">
+                 <a href="/penulis" class="a-navbar">penulis</a>
+            </li>
+            <li class="li-navbar">
+                 <a href="/penerbit" class="a-navbar">penerbit</a>
+            <li class="li-navbar">
+                 <a href="/buku" class="a-navbar">buku</a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- NAVBAR SELESAI -->
+        
+    <!-- CONTENT 1 -->
+    <div class >
+
+    </div>
+    <!-- CONTENT 1 SELESAI -->
+     <div class="input-container">
+        <form>
+            <label for="judul_buku">Nama Buku:</label>
+            <input type="text" id="nama" name="">
+            <br><br>
+            <label for="penulis">Penulis:</label>
+            <input type="text" id="penulis" name="penulis">
+            <br><br>
+            <label for="penerbit">Penerbit</label>
+            <input type="text" id="nama" name="penerbit">
+            <br><br>
+            <ul>
+                <li class="submit-container">
+                    <input type="submit" value="Kirim">
+                </li>
+            </ul>
+            
+        </form>
+     </div>
+
+
+
+    <!-- FOOTER -->
+     <div class="footer-content"> 
+        <p class="judul-content"> Furina Wangy-Wangy></p>
+     </div>
+    <div class="daftar_buku-container">
+        <ul>
+            <li>
+                <a herf="/daftar_buku">Daftar Buku</a>
+            </li>
+        </ul>
+        
+    </div>
+
+    <!-- FOOTER SELESAI -->
+     </div>
+    </body>
+    </html>
